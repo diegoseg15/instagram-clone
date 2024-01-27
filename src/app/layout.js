@@ -10,7 +10,7 @@ export const metadata = {
   description: "Clon de Instagram con fines educativos",
 };
 
-const login = true;
+const login = false;
 
 export default function RootLayout({ children }) {
   return (
