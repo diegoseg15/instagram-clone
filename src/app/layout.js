@@ -65,7 +65,9 @@ export default function RootLayout({ children }) {
             <nav className="absolute bottom-0 sm:h-screen sm:w-full w-screen sm:relative sm:basis-1/12 lg:basis-1/6 bg-white">
               <NavBar />
             </nav>
-            <main className="sm:basis-auto lg:basis-1/2 sm:relative absolute top-1">{children}</main>
+            <main className="sm:basis-auto lg:basis-1/2 sm:relative absolute top-1">
+              {children}
+            </main>
             <div className="lg:basis-1/3 lg:block hidden">Sugerencias</div>
           </div>
         ) : (
