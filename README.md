@@ -14,31 +14,15 @@ Este proyecto es un clon de la popular plataforma Instagram, desarrollado utiliz
 
 ## Tecnologías Utilizadas
 
-- React JS
+- Next JS
 - Tailwind CSS
-- Firebase (introducir detalles sobre la configuración de Firebase)
+<!-- - Firebase (introducir detalles sobre la configuración de Firebase) -->
 
 ## Instalación
 
-1. Clona el repositorio: `git clone https://github.com/tuusuario/instagram-clone.git`
+1. Clona el repositorio: `git clone https://github.com/diegoseg_15/instagram-clone.git`
 2. Ingresa al directorio: `cd instagram-clone`
 3. Instala las dependencias: `npm install`
-
-## Configuración con Firebase
-
-1. Crea un proyecto en [Firebase](https://console.firebase.google.com/)
-2. Configura la autenticación con Firebase y obtén las credenciales
-3. Configura la base de datos Firestore y obtén la configuración
-4. Agrega las credenciales y configuración de Firebase en un archivo `.env` en la raíz del proyecto
-
-```env
-REACT_APP_FIREBASE_API_KEY=your-api-key
-REACT_APP_FIREBASE_AUTH_DOMAIN=your-auth-domain
-REACT_APP_FIREBASE_PROJECT_ID=your-project-id
-REACT_APP_FIREBASE_STORAGE_BUCKET=your-storage-bucket
-REACT_APP_FIREBASE_MESSAGING_SENDER_ID=your-messaging-sender-id
-REACT_APP_FIREBASE_APP_ID=your-app-id
-```
 
 ## Uso
 
