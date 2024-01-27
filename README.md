@@ -35,4 +35,4 @@ Este proyecto es un clon de la popular plataforma Instagram, desarrollado utiliz
 
 ## Licencia
 
-Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
+Este proyecto está bajo la Licencia MIT
