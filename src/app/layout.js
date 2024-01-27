@@ -2,6 +2,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import NavBar from "./ui/nav-bar";
 import Link from "next/link";
+import Suggetions from "./ui/suggetions/suggetions";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -10,7 +11,7 @@ export const metadata = {
   description: "Clon de Instagram con fines educativos",
 };
 
-const login = false;
+const login = true;
 
 export default function RootLayout({ children }) {
   return (
@@ -59,16 +60,20 @@ export default function RootLayout({ children }) {
       >
         {login ? (
           <div className="relative flex sm:flex-row flex-col-reverse h-screen overflow-hidden font-sans">
-            <header className="absolute top-0 sm:hidden block overflow-x-hidden py-3 px-4 text-xl font-bold border-b-2">
+            <header className="w-screen absolute top-0 sm:hidden block overflow-x-hidden py-3 px-4 text-xl font-bold border-b-2">
               <Link href="/">Instagram</Link>
             </header>
             <nav className="absolute bottom-0 sm:h-screen sm:w-full w-screen sm:relative sm:basis-1/12 lg:basis-1/6 bg-white">
               <NavBar />
             </nav>
-            <main className="sm:basis-auto lg:basis-1/2 sm:relative absolute top-1">
-              {children}
-            </main>
-            <div className="lg:basis-1/3 lg:block hidden">Sugerencias</div>
+            <div className="flex overflow-y-auto basis-5/6">
+              <main className="sm:basis-auto lg:basis-2/3 sm:relative absolute top-1">
+                {children}
+              </main>
+              <div className="lg:basis-1/3 lg:block hidden sm:w-full">
+                <Suggetions />
+              </div>
+            </div>
           </div>
         ) : (
           <>

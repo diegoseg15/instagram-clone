@@ -22,7 +22,7 @@ export default function LoginPage() {
   }, []);
 
   return (
-    <div className="flex flex-row justify-center">
+    <div className="flex flex-row justify-center pt-12">
       <div className="md:block hidden relative overflow-hidden md:-mt-3 -ml-8">
         <Image
           src="/home-phones.png"
