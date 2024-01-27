@@ -1,6 +1,6 @@
 # Instagram Clone
 
-<img src="https://github.com/diegoseg15/instagram-clone/blob/main/public/screenshot-web.png?raw=true" alt="presentación de la página del clone de Instagram />
+<img src="https://github.com/diegoseg15/instagram-clone/blob/main/public/screenshot-web.jpeg?raw=true" alt="presentación de la página del clone de Instagram />
 
 Este proyecto es un clon de la popular plataforma Instagram, desarrollado utilizando React JS y Tailwind CSS.
 
