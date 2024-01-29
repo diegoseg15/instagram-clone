@@ -60,14 +60,14 @@ export default function RootLayout({ children }) {
       >
         {login ? (
           <div className="relative flex sm:flex-row flex-col-reverse h-screen overflow-hidden font-sans">
-            <header className="w-screen absolute top-0 sm:hidden block overflow-x-hidden py-3 px-4 text-xl font-bold border-b-2">
+            <header className="w-screen absolute top-0 sm:hidden block overflow-x-hidden py-3 px-4 text-xl font-bold border-b-2 z-10">
               <Link href="/">Instagram</Link>
             </header>
-            <nav className="absolute bottom-0 sm:h-screen sm:w-full w-screen sm:relative sm:basis-1/12 lg:basis-1/6 bg-white">
+            <nav className="absolute bottom-0 sm:h-screen sm:w-full w-screen sm:relative sm:basis-1/12 lg:basis-1/6 bg-white z-10">
               <NavBar />
             </nav>
-            <div className="flex overflow-y-auto basis-5/6">
-              <main className="sm:basis-auto lg:basis-2/3 sm:relative absolute top-1">
+            <div className="flex overflow-y-auto lg::basis-5/6 sm:basis-11/12">
+              <main className="sm:basis-auto lg:basis-2/3 sm:relative">
                 {children}
               </main>
               <div className="lg:basis-1/3 lg:block hidden sm:w-full">

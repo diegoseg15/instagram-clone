@@ -11,7 +11,7 @@ export default function Loading(props) {
         viewBox="0 0 100 100"
       >
         <rect
-          class="x1i210e2"
+          className="x1i210e2"
           height="10"
           opacity="0"
           rx="5"
@@ -22,7 +22,7 @@ export default function Loading(props) {
           y="45"
         ></rect>
         <rect
-          class="x1i210e2"
+          className="x1i210e2"
           height="10"
           opacity="0.125"
           rx="5"
@@ -33,7 +33,7 @@ export default function Loading(props) {
           y="45"
         ></rect>
         <rect
-          class="x1i210e2"
+          className="x1i210e2"
           height="10"
           opacity="0.25"
           rx="5"
@@ -44,7 +44,7 @@ export default function Loading(props) {
           y="45"
         ></rect>
         <rect
-          class="x1i210e2"
+          className="x1i210e2"
           height="10"
           opacity="0.375"
           rx="5"
@@ -55,7 +55,7 @@ export default function Loading(props) {
           y="45"
         ></rect>
         <rect
-          class="x1i210e2"
+          className="x1i210e2"
           height="10"
           opacity="0.5"
           rx="5"
@@ -66,7 +66,7 @@ export default function Loading(props) {
           y="45"
         ></rect>
         <rect
-          class="x1i210e2"
+          className="x1i210e2"
           height="10"
           opacity="0.625"
           rx="5"
@@ -77,7 +77,7 @@ export default function Loading(props) {
           y="45"
         ></rect>
         <rect
-          class="x1i210e2"
+          className="x1i210e2"
           height="10"
           opacity="0.75"
           rx="5"
@@ -88,7 +88,7 @@ export default function Loading(props) {
           y="45"
         ></rect>
         <rect
-          class="x1i210e2"
+          className="x1i210e2"
           height="10"
           opacity="0.875"
           rx="5"
